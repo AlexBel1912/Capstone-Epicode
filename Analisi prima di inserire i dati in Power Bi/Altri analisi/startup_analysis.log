@@ -1,0 +1,102 @@
+2025-07-01 16:43:47,711 - INFO -    Processing: data_iscrizione_startup
+2025-07-01 16:43:47,761 - INFO -    Processing: data_iscrizione_ri
+2025-07-01 16:43:47,806 - INFO -    Processing: data_inizio_attivita
+2025-07-01 16:47:55 - INFO - STARTUP ANALYSIS FRAMEWORK v2.1.0 - Production Ready
+2025-07-01 16:47:55,250 - INFO - STARTUP ANALYSIS FRAMEWORK v2.1.0 - Production Ready
+2025-07-01 16:47:55 - INFO - Cross-platform compatible | Unicode-safe logging | Enterprise grade
+2025-07-01 16:47:55,253 - INFO - Cross-platform compatible | Unicode-safe logging | Enterprise grade
+2025-07-01 16:47:55 - INFO - PIPELINE STEP 1: Dataset loading and validation
+2025-07-01 16:47:55,255 - INFO - PIPELINE STEP 1: Dataset loading and validation
+2025-07-01 16:47:55 - INFO - LOADING DATASET: clean_dataset.csv
+2025-07-01 16:47:55,257 - INFO - LOADING DATASET: clean_dataset.csv
+2025-07-01 16:47:55 - INFO - SUCCESS: Dataset loaded
+2025-07-01 16:47:55,351 - INFO - SUCCESS: Dataset loaded
+2025-07-01 16:47:55 - INFO - RECORDS: 10,987 startup companies
+2025-07-01 16:47:55,353 - INFO - RECORDS: 10,987 startup companies
+2025-07-01 16:47:55 - INFO - COLUMNS: 26 data fields
+2025-07-01 16:47:55,356 - INFO - COLUMNS: 26 data fields
+2025-07-01 16:47:55 - INFO - NAPOLI PRESERVATION: 634 startups validated
+2025-07-01 16:47:55,358 - INFO - NAPOLI PRESERVATION: 634 startups validated
+2025-07-01 16:47:55 - INFO - PIPELINE STEP 2: Column standardization
+2025-07-01 16:47:55,360 - INFO - PIPELINE STEP 2: Column standardization
+2025-07-01 16:47:55 - INFO - PROCESSING: Column standardization for business analysis
+2025-07-01 16:47:55,363 - INFO - PROCESSING: Column standardization for business analysis
+2025-07-01 16:47:55 - INFO - SUCCESS: Column standardization completed - 19 columns mapped
+2025-07-01 16:47:55,368 - INFO - SUCCESS: Column standardization completed - 19 columns mapped
+2025-07-01 16:47:55 - INFO - PIPELINE STEP 3: European date format parsing
+2025-07-01 16:47:55,371 - INFO - PIPELINE STEP 3: European date format parsing
+2025-07-01 16:47:55 - INFO - PROCESSING: European date format parsing (DD/MM/YYYY)
+2025-07-01 16:47:55,373 - INFO - PROCESSING: European date format parsing (DD/MM/YYYY)
+2025-07-01 16:47:55 - INFO - PARSING DATE COLUMN: data_iscrizione_startup
+2025-07-01 16:47:55,377 - INFO - PARSING DATE COLUMN: data_iscrizione_startup
+2025-07-01 16:47:55 - INFO - SUCCESS: data_iscrizione_startup - 10,987/10,987 parsed (100.0%)
+2025-07-01 16:47:55,435 - INFO - SUCCESS: data_iscrizione_startup - 10,987/10,987 parsed (100.0%)
+2025-07-01 16:47:55 - INFO - PARSING DATE COLUMN: data_iscrizione_ri
+2025-07-01 16:47:55,438 - INFO - PARSING DATE COLUMN: data_iscrizione_ri
+2025-07-01 16:47:55 - INFO - SUCCESS: data_iscrizione_ri - 10,987/10,987 parsed (100.0%)
+2025-07-01 16:47:55,484 - INFO - SUCCESS: data_iscrizione_ri - 10,987/10,987 parsed (100.0%)
+2025-07-01 16:47:55 - INFO - PARSING DATE COLUMN: data_inizio_attivita
+2025-07-01 16:47:55,487 - INFO - PARSING DATE COLUMN: data_inizio_attivita
+2025-07-01 16:47:55 - INFO - SUCCESS: data_inizio_attivita - 10,918/10,918 parsed (100.0%)
+2025-07-01 16:47:55,537 - INFO - SUCCESS: data_inizio_attivita - 10,918/10,918 parsed (100.0%)
+2025-07-01 16:47:55 - INFO - PIPELINE STEP 4: Geographic data enrichment
+2025-07-01 16:47:55,540 - INFO - PIPELINE STEP 4: Geographic data enrichment
+2025-07-01 16:47:55 - INFO - PROCESSING: Geographic data enrichment
+2025-07-01 16:47:55,542 - INFO - PROCESSING: Geographic data enrichment
+2025-07-01 16:47:55 - INFO - SUCCESS: All provinces mapped successfully
+2025-07-01 16:47:55,559 - INFO - SUCCESS: All provinces mapped successfully
+2025-07-01 16:47:55 - INFO - NAPOLI VALIDATION: 634 startups correctly mapped to Campania region
+2025-07-01 16:47:55,569 - INFO - NAPOLI VALIDATION: 634 startups correctly mapped to Campania region
+2025-07-01 16:47:55 - INFO - GEOGRAPHIC COVERAGE: 10,987/10,987 records (100.0%)
+2025-07-01 16:47:55,573 - INFO - GEOGRAPHIC COVERAGE: 10,987/10,987 records (100.0%)
+2025-07-01 16:47:55 - INFO - PIPELINE STEP 5: Business intelligence metrics
+2025-07-01 16:47:55,576 - INFO - PIPELINE STEP 5: Business intelligence metrics
+2025-07-01 16:47:55 - INFO - PROCESSING: Business intelligence metrics
+2025-07-01 16:47:55,580 - INFO - PROCESSING: Business intelligence metrics
+2025-07-01 16:47:55 - INFO - COMPANY AGE: Calculated for 10,987 startups
+2025-07-01 16:47:55,652 - INFO - COMPANY AGE: Calculated for 10,987 startups
+2025-07-01 16:47:55 - INFO - SUCCESS: Business intelligence metrics completed
+2025-07-01 16:47:55,670 - INFO - SUCCESS: Business intelligence metrics completed
+2025-07-01 16:47:55 - INFO - PIPELINE STEP 6: Data quality assessment
+2025-07-01 16:47:55,673 - INFO - PIPELINE STEP 6: Data quality assessment
+2025-07-01 16:47:55 - INFO - GENERATING: Data quality assessment report
+2025-07-01 16:47:55,675 - INFO - GENERATING: Data quality assessment report
+2025-07-01 16:47:55 - INFO - SUCCESS: Data quality report completed
+2025-07-01 16:47:55,738 - INFO - SUCCESS: Data quality report completed
+2025-07-01 16:47:55 - INFO - OUTPUT: Dataset saved as startup_ecosystem_analysis_enterprise_v2.csv
+2025-07-01 16:47:55,946 - INFO - OUTPUT: Dataset saved as startup_ecosystem_analysis_enterprise_v2.csv
+2025-07-01 16:47:55 - INFO - ENTERPRISE ANALYSIS PIPELINE: Successfully completed
+2025-07-01 16:47:55,954 - INFO - ENTERPRISE ANALYSIS PIPELINE: Successfully completed
+2025-07-02 20:21:56 - INFO - STARTUP ANALYSIS FRAMEWORK v2.1.0 - Production Ready
+2025-07-02 20:21:56 - INFO - Cross-platform compatible | Unicode-safe logging | Enterprise grade
+2025-07-02 20:21:56 - INFO - PIPELINE STEP 1: Dataset loading and validation
+2025-07-02 20:21:56 - INFO - LOADING DATASET: clean_dataset.csv
+2025-07-02 20:21:56 - INFO - SUCCESS: Dataset loaded
+2025-07-02 20:21:56 - INFO - RECORDS: 12,292 startup companies
+2025-07-02 20:21:56 - INFO - COLUMNS: 30 data fields
+2025-07-02 20:21:56 - INFO - NAPOLI PRESERVATION: 846 startups validated
+2025-07-02 20:21:56 - INFO - PIPELINE STEP 2: Column standardization
+2025-07-02 20:21:56 - INFO - PROCESSING: Column standardization for business analysis
+2025-07-02 20:21:56 - INFO - SUCCESS: Column standardization completed - 11 columns mapped
+2025-07-02 20:21:56 - INFO - PIPELINE STEP 3: European date format parsing
+2025-07-02 20:21:56 - INFO - PROCESSING: European date format parsing (DD/MM/YYYY)
+2025-07-02 20:21:56 - INFO - PARSING DATE COLUMN: data_iscrizione_startup
+2025-07-02 20:21:56 - INFO - SUCCESS: data_iscrizione_startup - 12,292/12,292 parsed (100.0%)
+2025-07-02 20:21:56 - INFO - PARSING DATE COLUMN: data_iscrizione_ri
+2025-07-02 20:21:56 - INFO - SUCCESS: data_iscrizione_ri - 12,292/12,292 parsed (100.0%)
+2025-07-02 20:21:56 - INFO - PARSING DATE COLUMN: data_inizio_attivita
+2025-07-02 20:21:56 - INFO - SUCCESS: data_inizio_attivita - 12,219/12,219 parsed (100.0%)
+2025-07-02 20:21:56 - INFO - PIPELINE STEP 4: Geographic data enrichment
+2025-07-02 20:21:56 - INFO - PROCESSING: Geographic data enrichment
+2025-07-02 20:21:56 - INFO - SUCCESS: All provinces mapped successfully
+2025-07-02 20:21:56 - INFO - NAPOLI VALIDATION: 846 startups correctly mapped to Campania region
+2025-07-02 20:21:56 - INFO - GEOGRAPHIC COVERAGE: 12,292/12,292 records (100.0%)
+2025-07-02 20:21:56 - INFO - PIPELINE STEP 5: Business intelligence metrics
+2025-07-02 20:21:56 - INFO - PROCESSING: Business intelligence metrics
+2025-07-02 20:21:56 - INFO - COMPANY AGE: Calculated for 12,292 startups
+2025-07-02 20:21:56 - INFO - SUCCESS: Business intelligence metrics completed
+2025-07-02 20:21:56 - INFO - PIPELINE STEP 6: Data quality assessment
+2025-07-02 20:21:56 - INFO - GENERATING: Data quality assessment report
+2025-07-02 20:21:56 - INFO - SUCCESS: Data quality report completed
+2025-07-02 20:21:56 - INFO - OUTPUT: Dataset saved as startup_ecosystem_analysis_enterprise_v2.csv
+2025-07-02 20:21:56 - INFO - ENTERPRISE ANALYSIS PIPELINE: Successfully completed
